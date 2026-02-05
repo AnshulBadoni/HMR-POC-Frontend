@@ -3,7 +3,7 @@ import axios from 'axios';
 const API_BASE_URL = "https://hmr-poc.onrender.com";
 
 const api = axios.create({
-  baseURL: `${API_BASE_URL}/api`,
+  baseURL: `${API_BASE_URL}`,
   headers: {
     'Content-Type': 'application/json',
   },
