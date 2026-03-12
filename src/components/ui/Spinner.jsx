@@ -19,7 +19,7 @@ export const PageLoader = () => (
   <div className="flex items-center justify-center min-h-[400px]">
     <div className="text-center">
       <Spinner size="lg" />
-      <p className="mt-4 text-gray-500">Loading...</p>
+      <p className="mt-4 text-gray-500">Loading... This may take up to 5 minute for server to cold start. please be patient</p>
     </div>
   </div>
 );
